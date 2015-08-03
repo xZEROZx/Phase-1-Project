@@ -1,0 +1,270 @@
+/***** Body *****/
+
+body {
+  background-color: #232A40;
+}
+
+.index-main-section {
+  text-align: center;
+  color: white;
+  background-image: url("../images/background4.png");
+}
+
+.index-main-section .title,
+.index-main-section .subtitle,
+.index-main-section .paragraph {
+  padding-bottom: 1em;
+}
+
+.index-main-section .title {
+  color: #C9FD7E;
+  padding-top: 1em;
+}
+
+.index-main-section .subtitle {
+  color: white;
+}
+
+/***** Navigation Bar *****/
+
+.navbar-top {
+  border: 3px solid black;
+  padding: 1em 0;
+  background: #B7FF19;
+}
+
+.navbar-top div {
+  display: inline;
+}
+
+.image img {
+  width: 80px;
+  height: 55px;
+  float: left;
+  padding-left: 1em;
+}
+
+.links {
+  text-align: right;
+}
+
+.links a {
+  color: #232A40;
+}
+
+.links a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.links li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 18px;
+  padding-right: 1.5em;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Proxima Nova", Gadget, sans-serif;
+}
+
+.index-stripe {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  padding-top: 25px;
+}
+
+/***** Services Section *****/
+
+.spacing-bar{
+	height: 40px;
+	width: 100%;
+	background-color: #232A40;
+}
+
+.our-services{
+	padding: 56 auto 90 auto;
+}
+.our-services-section{
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+.our-services-section p{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 12pt;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.our-services-section h5{
+color: lightgrey;
+font-family: "Proxima Nova", Impact, sans-serif;
+font-size: 14px;
+margin: 1em 0;
+}
+.our-services-title{
+  color: #B7FF19;
+	text-align: center;
+	margin: 0;
+	font-size: 25px;
+	font-family: "Proxima Nova", Impact, sans-serif;
+	word-spacing: 0.1em;
+}
+
+.our-services-title h1 {
+  margin-bottom: 50px;
+}
+
+/***** Contact Form *****/
+
+body {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+strong {
+  font-weight: 500;
+  color: #B7FF19;
+}
+
+a, a:hover, a:focus {
+	color: #19b9e7;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 38px;
+    font-weight: 100;
+    color: #555;
+    line-height: 50px;
+}
+
+h3 {
+	font-size: 22px;
+    font-weight: 300;
+    color: #555;
+    line-height: 30px;
+}
+
+img { max-width: 100%;
+}
+
+/***** Contact Form Top *****/
+
+.inner-bg {
+    padding: 40px 0 35px 0;
+}
+
+.top-content .text {
+	color: #fff;
+}
+
+.top-content .text h1 { color: #fff; }
+
+.top-content .description {
+	margin: 20px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .description a {
+	color: #fff;
+}
+.top-content .description a:hover,
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.top-content .top-big-link {
+	margin-top: 35px;
+}
+
+.form-box {
+	padding-top: 40px;
+}
+
+.form-top {
+	overflow: hidden;
+	padding: 0 25px 15px 25px;
+	background: #444;
+	background: rgba(0, 0, 0, 0.35);
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.form-top-left {
+	float: left;
+	width: 75%;
+	padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; color: #fff; }
+.form-top-left p { opacity: 0.8; color: #fff; }
+
+.form-top-right {
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	font-size: 66px;
+	color: #fff;
+	line-height: 100px;
+	text-align: right;
+	opacity: 0.3;
+}
+
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #444;
+	background: rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.form-bottom form textarea {
+	height: 100px;
+}
+
+.form-bottom form .input-error {
+	border-color: #19b9e7;
+}
+
+.form-bottom p { opacity: 0.8; color: #fff; }
+
+
+/***** Footer Section *****/
+
+footer { padding: 4em 0;
+}
+
+footer .footer-logo { border: none;
+}
+
+footer .footer-logo li { display: inline-block; line-height: 3.5;
+}
+
+footer .footer-logo li span { margin-left: 60px;
+}
+
+footer .footer-logo li:before { content: ""; display: inline-block; position: absolute; top: 3px; margin-right: 10px; width: 50px; height: 50px; background-repeat: no-repeat; background-size: contain; background-position: center; background-image: url('../images/piloto_blanco.png');
+}
+
+footer ul { list-style-type: none; margin-bottom: 0; border-left: solid 1px #cee6eb; text-align: center;
+}
+
+footer ul li { padding: 4px 0; font-weight: lighter; color: #8b8a8f;
+}
+
+footer ul li a { color: #8b8a8f;
+}
+
+footer ul li a:hover { color: #8b8a8f; text-decoration: none; font-weight: bold;
+}
+
+footer ul.last { border-right: solid 1px #cee6eb;
+}
